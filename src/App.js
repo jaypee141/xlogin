@@ -37,10 +37,10 @@ function App() {
         <form onSubmit={handleSubmit}>
       <label htmlFor="username" >Username:</label>
       <input type="text" value={username} placeholder="username" onChange={(e)=>
-        setUsername(e.target.value)} required/> <br/>
+        setUsername(e.target.value)} required >{password}</input><br/>
       <label htmlFor="password">password:</label>
       <input type="password" value={password} placeholder="password" onChange={(e)=>
-      setPassword(e.target.value)} required /> <br />
+      setPassword(e.target.value)} required >{password}</input> <br />
       <button type="submit">Submit</button>
       </form>       
       )
