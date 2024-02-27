@@ -38,7 +38,7 @@ function App() {
       <label htmlFor="username" >Username:</label>
       <input type="text" value={username} onChange={(e)=>
         setUsername(e.target.value)} required ></input><br/>
-      <label htmlFor="password">password:</label>
+      <label htmlFor="password">Password:</label>
       <input type="password" value={password} onChange={(e)=>
       setPassword(e.target.value)} required ></input> <br />
       <button type="submit">Submit</button>
